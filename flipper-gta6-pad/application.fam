@@ -1,0 +1,17 @@
+# GTA VI Pad – Xbox 360 USB ovladac s vlastnim rozlozenim
+# Zalozeno na "USB Game Controller" (github.com/expected-ingot/flipper-xinput), GPL-3.0
+
+App(
+    appid="gta6_pad",
+    name="GTA VI Pad",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="gta6_pad_app",
+    stack_size=2 * 1024,
+    fap_category="USB",
+    requires=["gui"],
+    fap_version="1.0",
+    fap_icon="icon.png",
+    fap_description="Xbox 360 USB pad, Zpet = shift (RT, LT, B, Y, mapa)",
+    fap_author="Alex",
+    fap_icon_assets="images",
+)
